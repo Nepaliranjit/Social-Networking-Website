@@ -1,0 +1,299 @@
+/* CSS Document */
+body{
+background:#fff /*url(photos/background.gif)*/;
+color: #76b347;
+
+/*background:url(photos/background.gif);
+*/margin:-0px;
+font-size:16px;
+font-family:"Courier New", Courier, monospace;
+
+
+
+
+
+}
+
+
+#header{
+
+
+text-align:center;
+
+/*border:3px solid rgba(0,0,0,0);*/
+-webkit-border-radius:0px;
+-moz-border-radius:0px;
+ border-radius:0px;
+-webkit-box-shadow:0 0 18px rgba(0,0,0,0.4);
+-moz-box-shadow:0 0 18px rgba(0,0,0,0.4);
+ box-shadow:0 0 18px rgba(0,0,0,0.4);
+ margin-top:0%;
+ height:10px;
+ text-align:center;
+ height:5px;
+font-weight:bold;
+background:#0099FF;
+color:#fff;
+text-decoration:none;
+padding:20px;
+font-family:"Courier New", Courier, monospace;
+}
+
+/*left for name of site */
+#left{margin-top:-8px;
+float:left;
+
+}
+/*right for menu header */
+
+#right{
+float:right;
+margin-right:150px;
+margin-top:-8px;
+text-align:center;
+
+}
+/*header decoration */
+
+
+#header :hover{
+
+color:#fff;
+
+}
+#header_top_pic{
+float:right;
+}
+#header_top_pic img{
+width:30px;
+height:30px;
+margin-right:240px;
+margin-top:-15px;
+
+
+
+}
+#subheader{
+margin-top:0px;
+width:801px;
+height:60px;
+margin-left:279px;
+background-color: #339933 ;
+color: #999999;
+text-align:center;
+border:3px solid rgba(0,0,0,0);
+-webkit-border-radius:0px;
+-moz-border-radius:0px;
+ border-radius:0px;
+-webkit-box-shadow:0 0 18px rgba(0,0,0,0.4);
+-moz-box-shadow:0 0 18px rgba(0,0,0,0.4);
+ box-shadow:0 0 18px rgba(0,0,0,0.4);
+ line-height:2.8em;
+font-size:18px;
+display:block;
+color:#FFFFFF;
+
+}
+#subheader a:hover{
+
+
+color: #0066CC;
+
+
+
+}ext-align:center;
+
+
+.clear{
+clear:both;
+}
+
+/*body after #ranjit_small_box   given below */
+
+#wrapper{
+color:#fff;
+background:#fff;
+
+width:800px;
+margin: auto;
+min-height:200px;
+background:url(l.png);
+
+}
+/*smallbox of 10px after profile pic */
+#ranjit_small_box{
+background:#006699;
+}
+/*friends display box*/
+#friends{
+width:800px;
+margin-left:277px;
+margin-top:10px;
+border:solid 1px #B4BBCD;
+background:url(photos/background.gif);
+
+}
+#friends a:hover{
+text-decoration:underline;
+color:#009933;
+
+}
+#friends a{
+text-decoration:none;
+margin-top:-100px;
+margin-left:20px;
+
+}
+/*taking friends pic right from left border*/
+#rightpic{
+margin-left:650px; margin-top:0px;
+}
+/*on hover image zoom*/
+.image > img { 
+-webkit-transition:all 500ms linear; 
+-moz-transition:all 500ms linear; 
+-o-transition:all 500ms linear; 
+-ms-transition:all 500ms linear; 
+transition:all 500ms linear; 
+}
+
+.image > img:hover { 
+-moz-transform: scale(1.5); 
+-webkit-transform: scale(1.5); 
+-o-transform: scale(1.5); 
+transform: scale(1.5); 
+
+}
+
+
+
+/*Dispaly profile picture*/
+#Layer1 {
+position:absolute;
+	margin-top: -127px; margin-left: 277px ; 
+	width:124px;
+	height:124px;
+	border:solid 1px #B4BBCD;
+	background-color:#FFFFFF;
+	z-index:1;
+	
+}
+/*for friends.php  box*/
+#box{margin-top:10px;
+ width:800px;
+ margin-left:277px;
+ height:170px;
+ line-height:1.4em; /*Gives space between line*/
+ margin-top:0px;
+ font-family:"Courier New", Courier, monospace;
+ 
+ border:3px solid rgba(0,0,0,0);
+-webkit-border-radius:15px;
+-moz-border-radius:15px;
+ border-radius:15px;
+-webkit-box-shadow:0 0 18px rgba(0,0,0,0.4);
+-moz-box-shadow:0 0 18px rgba(0,0,0,0.4);
+ box-shadow:0 0 18px rgba(0,0,0,0.4);
+ margin-top:2%;
+ 
+
+}
+
+
+/*for friends.php #ranjit_small_box1*/
+
+#ranjit_small_box1{
+margin-top:10px;
+background:#006699;
+width:800px;
+height:30px;
+margin-left:276px;
+
+
+}
+#ranjit_small_box1 img{
+width:20px;
+height:20px;
+text-align:center;
+margin-top:1px;
+}
+#divLine{
+
+width:1348px;
+background:#FFF;
+height:1px;
+}
+/*right_ranjit_friends in friends.php*/
+
+
+#right_ranjit_friends{
+margin-top:10px;
+float:right;
+margin-right:100px;
+
+
+border :1px solid #006699;
+background: url(photos/background.gif);
+
+
+
+}/*message dsplay*/
+#right_ranjit_friends1{
+margin-top:10px;
+float:left;
+margin-right:100px;
+border-radius:25px;-moz-border-radius:25px;-webkit-border-radius:25px;-webkit-border-radius:25px;border:1px solid green;background:
+
+}
+
+ 
+
+.nav {
+	
+	
+	
+	  position: fixed;
+  width: 100%;
+ 
+  left: 0;
+ line-height:1.4em;
+  z-index: 100;
+  border-top: 0;
+	
+}
+
+#ranjit_photo_pic{
+float:left;
+
+
+margin-left:3px;
+
+height:40px;
+
+/**/
+/*width:60px;
+	min-height:50px;
+	height:auto;
+	padding:10px; 
+	border: solid 1px #cbcbcb;
+	 background-color: #FFF;
+	 box-shadow: 0 2px 20px #cbcbcb;
+	-moz-box-shadow: 0 2px 20px #cbcbcb;
+	-webkit-box-shadow: 0 2px 20px #cbcbcb;
+	-webkit-border-radius: 15px 15px; 15px 15px;-moz-border-radius: 15px 15px; 15px 15px;border-radius: 15px 15px; 15px 15px;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px*/;
+
+}
+#ranjit_photo_pic img{
+float: left;
+
+}
+#txt{
+float:left;
+margin-left:12px;
+margin-top:-10px;
+
+
+}

@@ -1,0 +1,56 @@
+/* CSS Document */
+<style type="text/css">
+.box { 
+width:750px;
+margin:0 auto; 
+}
+a { 
+text-decoration:none; 
+font-size:15px; 
+font-family:Tahoma, Geneva, sans-serif;
+}
+ul { 
+list-style:none; 
+}
+li { 
+padding:25px; 
+text-transform:uppercase; 
+border-bottom:1px #999 solid; 
+}
+.top {
+height:50px;
+width:50px;
+text-decoration: none;
+position:fixed;
+top:550px;
+right:40px;
+display:none;
+background-image:url(to-top.png);
+background-repeat:no-repeat;
+}
+.top1 {
+height:50px;
+width:50px;
+text-decoration: none;
+position:fixed;
+top:550px;
+left:40px;
+display:none;
+background-image:url(to-top.png);
+background-repeat:no-repeat;
+}
+
+.top:hover {
+border:1px #CCC solid;
+text-decoration:none;
+}
+
+.top1:hover {
+border:1px #CCC solid;
+text-decoration:none;
+
+}
+
+</style>
+
+
